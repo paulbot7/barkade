@@ -1,0 +1,79 @@
+body {color:#fff; text-align:center; margin:25px; background-image:url(../images/mspacman.jpg);text-shadow: 5px 5px 10px #000;}
+h1 {font-size:75px;font-family: 'Abril Fatface', cursive; }
+h2 {font-size:40px;font-family: 'Oleo Script Swash Caps', cursive;}
+
+/* Structure */
+#wrapper {
+width: 96%;
+max-width: 920px;
+margin: auto;
+padding: 2%;
+}
+#main {
+width: 60%;
+margin-right: 5%;
+float: left;
+}
+aside {
+width: 35%;
+float: right;
+}
+/* Logo H1 */
+header h1 {
+height: 70px;
+width: 160px;
+float: left;
+display: block;
+background: url(../images/wallpaper.jpg) 0 0 no-repeat;
+text-indent: -9999px;
+}
+/* Nav */
+header nav {
+float: right;
+margin-top: 40px;
+}
+header nav li {
+display: inline;
+margin-left: 15px;
+}
+#skipTo {
+display: none;
+}
+#skipTo li {
+background: #b1fffc;
+}
+/* Banner */
+#banner {
+float: left;
+margin-bottom: 15px;
+width: 100%;
+}
+#banner img {
+width: 100%;
+}
+
+
+    /* Media Queries */
+    @media screen and (max-width: 480px) {
+    #skipTo {
+    display: block;
+    }
+    header nav, #main, aside {
+    float: left;
+    clear: left;
+    margin: 0 0 10px;
+    width: 100%;
+    }
+    header nav li {
+    margin: 0;
+    background: #efefef;
+    display: block;
+    margin-bottom: 3px;
+    }
+    header nav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    }
+    }
+
