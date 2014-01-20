@@ -1,4 +1,4 @@
-body {color:#fff; text-align:center; margin:25px; background-image:url(../images/mspacman.jpg);text-shadow: 5px 5px 10px #000;}
+body {color:#fff; text-align:center; margin:25px; background-image:url(../images/pacman.jpg); background-repeat:none; text-shadow: 5px 5px 10px #000;}
 h1 {font-size:75px;font-family: 'Abril Fatface', cursive; }
 h2 {font-size:40px;font-family: 'Oleo Script Swash Caps', cursive;}
 
